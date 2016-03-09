@@ -4,6 +4,9 @@ round = 1
 a2 = 1
 a1 = 0
 
+  if n = 1
+  	a3 = 1
+  end
 
   while round <= n - 1 
 
@@ -18,5 +21,9 @@ a1 = 0
 
     round += 1
   end
+  puts a3
 end
 
+n = gets.chomp.to_i
+
+Fibonacci n
