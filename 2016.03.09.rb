@@ -1,6 +1,6 @@
 #def fact(n)
-#	return 1 if n == 0
-#	n * fact(n-1) if n > 0
+#  return 1 if n == 0
+#  n * fact(n-1) if n > 0
 #end
 
 #n = gets.chomp.to_i
@@ -10,14 +10,14 @@
 
 def fact(round)
 
-	pre_fact = 1
-	while round > 0
-	  fact = pre_fact * round
-	  round -=1
-	  pre_fact = fact
-    end 
+  pre_fact = 1
+  while round > 0
+    fact = pre_fact * round
+    round -= 1
+    pre_fact = fact
+  end 
 
-    return pre_fact
+  return pre_fact
 
 end
 
